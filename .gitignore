@@ -1,0 +1,57 @@
+# ── Cline / IDE ──────────────────────────────────────────────────────────────
+.clinerules
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Secrets & Config ─────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter / Experimentation ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── LLM / Debate Project Specifics ───────────────────────────────────────────
+# Response logs & traces
+*.jsonl
+debate_logs/
+outputs/
+results/
+
+# Cached API responses / embeddings
+cache/
+*.pkl
+*.pickle
+
+# Draft prompts not ready to commit
+prompts/drafts/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
