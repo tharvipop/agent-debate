@@ -43,6 +43,8 @@ ENV/
 debate_logs/
 outputs/
 results/
+# src/logs/
+# MVP/logs/
 
 # Cached API responses / embeddings
 cache/
